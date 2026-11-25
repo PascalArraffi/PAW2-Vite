@@ -1,4 +1,4 @@
-import { Icon, Moon, Sun } from 'lucide-react'
+import { EyeOff, HatGlasses, Icon, Pointer, PointerOff } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 
 const ThemeSwap = () => {
@@ -14,14 +14,14 @@ const ThemeSwap = () => {
 
     if (isDark){
         return <button className='btn btn-circle' onClick={handleTheme}>
-            <Sun/>
+            <HatGlasses />
         </button>
     }
 
   return (
     <div>
          <button className='btn btn-circle' onClick={handleTheme}>
-            <Moon/>
+            <EyeOff />
         </button>
 
 
