@@ -6,9 +6,9 @@ import Footer from '../components/Footer'
 
 export const PublicLayout = () => {
   return (
-    <div className='min-h-screen flex flex-col'>
+    <div className='flex min-h-screen flex-col'>
         <Navbar/>
-        <main className='flex-1'>
+        <main className='flex flex-1'>
           <Outlet/>
         </main>
         <Footer/>

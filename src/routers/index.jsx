@@ -33,7 +33,7 @@ const router = createBrowserRouter([
             {
                 path: '/Register',
                 lazy: async() => {
-                    const module = await import("../pages/about/about")
+                    const module = await import("../pages/Register/Register")
 
                     return {
                         Component: module.default
